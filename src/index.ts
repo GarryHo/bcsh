@@ -33,8 +33,9 @@ async function main() {
   Console.Write(
     `${"bcsh".bold}${
       `@${
-        JSON.parse((await readFile(join(__dirname, "package.json"))).toString())
-          .version
+        JSON.parse(
+          (await readFile(join(__dirname, "../package.json"))).toString()
+        ).version
       }`.grey
     }`
   );
