@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "@types/colors": "^1.2.1",
+    "@types/node": "^14.11.8",
+    "colors": "^1.4.0",
+    "csharp-like-custom-console": "^2.0.0",
+    "uuid": "^8.3.1"
+  },
+  "name": "bcsh",
+  "version": "2.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bin": {
+    "bcsh": "lib/index.js"
+  },
+  "description": "bcsh is a copy of linux bash / git bash.",
+  "devDependencies": {},
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "bash"
+  ],
+  "author": "twitter.com/Nerd_EXE"
+}
